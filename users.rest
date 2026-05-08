@@ -1,0 +1,6 @@
+### Get all users
+GET https://project1-nlua.onrender.com/users
+
+
+### Get single contact
+GET https://project1-nlua.onrender.com/users/69fe46837b3c0e7df654b272
