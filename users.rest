@@ -3,4 +3,34 @@ GET https://project1-nlua.onrender.com/users
 
 
 ### Get single user
-GET https://project1-nlua.onrender.com/users/69fe46837b3c0e7df654b272
+GET https://project1-nlua.onrender.com/users/69fe46837b3c0e7df654b273
+
+### Create Contact
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "firstName": "Ben",
+    "lastName": "Roberts",
+    "email": "ben@test.com",
+    "favoriteColor": "Blue",
+    "birthday": "1993-06-23"
+}
+
+### Update Contact
+PUT http://localhost:3000/users/69fe46837b3c0e7df654b273
+Content-Type: application/json
+
+{
+    "firstName": "Benjamin",
+    "lastName": "Roberts",
+    "email": "benjamin@test.com",
+    "favoriteColor": "Yellow",
+    "birthday": "1993-06-23"
+}
+
+### Delete Contact
+DELETE http://localhost:3000/users/69fe46837b3c0e7df654b273
+
+### Test local server
+GET http://localhost:3000/
