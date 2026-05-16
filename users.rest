@@ -18,14 +18,14 @@ Content-Type: application/json
 }
 
 ### Update Contact
-PUT http://localhost:3000/users/69fe46837b3c0e7df654b273
+PUT http://localhost:3000/users/6a07cd293032b70acd492aff
 Content-Type: application/json
 
 {
-    "firstName": "Benjamin",
+    "firstName": "Justin",
     "lastName": "Roberts",
-    "email": "benjamin@test.com",
-    "favoriteColor": "Yellow",
+    "email": "justin@test.com",
+    "favoriteColor": "Lime",
     "birthday": "1993-06-23"
 }
 
