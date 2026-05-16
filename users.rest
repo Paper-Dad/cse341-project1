@@ -6,7 +6,7 @@ GET https://project1-nlua.onrender.com/users
 GET https://project1-nlua.onrender.com/users/69fe46837b3c0e7df654b273
 
 ### Create Contact
-POST http://localhost:3000/users
+POST https://project1-nlua.onrender.com/users
 Content-Type: application/json
 
 {
@@ -18,7 +18,7 @@ Content-Type: application/json
 }
 
 ### Update Contact
-PUT http://localhost:3000/users/6a07cd293032b70acd492aff
+PUT https://project1-nlua.onrender.com/users/6a07cd293032b70acd492aff
 Content-Type: application/json
 
 {
@@ -30,7 +30,5 @@ Content-Type: application/json
 }
 
 ### Delete Contact
-DELETE http://localhost:3000/users/69fe46837b3c0e7df654b273
+DELETE https://project1-nlua.onrender.com/users/69fe46837b3c0e7df654b273
 
-### Test local server
-GET http://localhost:3000/
